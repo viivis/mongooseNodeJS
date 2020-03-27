@@ -101,7 +101,7 @@ const person2 = new Person({
     age: 16
 
 });
-/*Person.insertMany([person, person1, person2], (error=> {
+/*Person.insertMany([person1, person2], (error=> {
     if(error) {
         console.log(err);
     }else {
